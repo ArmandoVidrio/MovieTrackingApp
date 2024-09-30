@@ -1,0 +1,58 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code files
+.vscode/
+
+# Rider files
+.idea/
+*.sln.iml
+
+# ASP.NET Specific
+*.db
+*.pdb
+*.mdb
+*.log
+*.vs/
+*.vscode/
+
+# Environment Variables
+*.env
+
+# DotNet Files
+project.lock.json
+project.fragment.lock.json
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+*.snupkg
+*.nuspec
+
+# Publish Output
+publish/
+
+# Backup files
+*~ 
+*.bak 
+*.tmp 
+*.swp 
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+
+# Other files
+.DS_Store
+Thumbs.db
+
