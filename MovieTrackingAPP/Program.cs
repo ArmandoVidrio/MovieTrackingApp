@@ -1,7 +1,10 @@
+using MovieTrackingAPP.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<MovieService>();
 
 var app = builder.Build();
 
